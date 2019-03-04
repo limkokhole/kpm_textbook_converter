@@ -144,7 +144,7 @@ def walkdir(dirname):
 				     elements[0].classList.remove('fade');
 				 
 				}
-				//need remove this to prevent visible items not overlay each other
+				//need remove this to prevent visible items overlay each other
 				 var elements = document.getElementsByClassName('modal');
 				 while(elements.length > 0){
 				     elements[0].classList.remove('modal');
